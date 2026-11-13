@@ -1,0 +1,11 @@
+{
+ "schemaVersion": 1,
+ "sector": "الاستهلاك",
+ "years": [],
+ "source": {
+  "name": "SEC EDGAR companyfacts",
+  "provider": "SEC EDGAR",
+  "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+ },
+ "companies": []
+}

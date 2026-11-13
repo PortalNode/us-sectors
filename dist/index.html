@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d2432">
+  <meta name="description" content="أكبر 200 شركة أمريكية حسب القطاعات مع أسعار الإغلاق وتاريخ ومصدر الأسعار والمؤشر العام.">
+  <title>قطاعات السوق الأمريكي | مؤشرات الشركات</title>
+  <script src="theme.js?v=20261105"></script>
+  <link rel="stylesheet" href="styles.css?v=us-20261113">
+  <link rel="stylesheet" href="banks.css?v=us-20261113">
+  <link rel="stylesheet" href="theme.css?v=20261105">
+  <link rel="stylesheet" href="layout.css?v=20261113b">
+  <link rel="icon" href="favicon.ico?v=20261113" sizes="any" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=20261113">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png?v=20261113">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=20261113">
+  <link rel="manifest" href="site.webmanifest?v=20261113">
+</head>
+<body>
+  <div class="page-shell">
+    <main id="main-content" class="main-content">
+      <header class="site-bar">
+    <h1 id="page-title" class="site-name">السوق الأمريكي</h1>
+    <div class="hero-date"><span id="price-mode">جار تحميل الأسعار</span> · <bdi id="price-date">—</bdi> · <span id="price-source">—</span></div>
+    <nav class="site-nav" aria-label="صفحات الموقع"><a href="index.html" aria-current="page">الشركات</a><a href="comparison.html">مقارنة النتائج المالية</a></nav>
+    <div class="theme-switch" role="group" aria-label="اختيار مظهر الموقع"><span class="theme-switch-label">المظهر</span><button type="button" data-theme-option="light" aria-pressed="false">فاتح</button><button type="button" data-theme-option="dark" aria-pressed="true">داكن</button></div>
+  </header>
+
+      <section class="market-summary" aria-label="ملخص السوق اليومي">
+        <h2>ملخص السوق <span id="market-date" class="market-date">—</span></h2>
+        <div id="market-stats" class="market-stats"><div class="market-group market-group-index"><span class="market-group-label">المؤشر العام</span><div class="market-group-cards"><div class="market-card"><span>قيمة المؤشر</span><strong>—</strong></div><div class="market-card"><span>التغيير اليومي</span><strong>—</strong></div></div></div><div class="market-group market-group-breadth"><span class="market-group-label">اتساع السوق</span><div class="market-group-cards"><div class="market-card"><span>الشركات المرتفعة</span><strong>—</strong></div><div class="market-card"><span>دون تغيير</span><strong>—</strong></div><div class="market-card"><span>الشركات المنخفضة</span><strong>—</strong></div></div></div><div class="market-group market-group-turnover"><span class="market-group-label">القيمة المتداولة (دولار)</span><div class="market-group-cards"><div class="market-card"><span>القيمة المتداولة</span><strong>—</strong></div></div></div><div class="market-group market-group-performance"><span class="market-group-label">أداء المؤشر</span><div class="market-group-cards"><div class="market-card"><span>منذ بداية السنة</span><strong>—</strong></div><div class="market-card"><span>3 أشهر</span><strong>—</strong></div><div class="market-card"><span>6 أشهر</span><strong>—</strong></div><div class="market-card"><span>سنة</span><strong>—</strong></div></div></div></div>
+      </section>
+
+      <section class="workspace" aria-label="جدول الشركات">
+        <div class="toolbar">
+          <div class="toolbar-heading"><span class="eyebrow">دليل الشركات</span><h2 id="view-title">جميع القطاعات</h2><p id="result-count" role="status" aria-live="polite"></p></div>
+          <div class="toolbar-actions">
+            <label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.3"/><path d="m16 16 4.4 4.4"/></svg><span class="sr-only">البحث عن شركة أو رمز</span><input id="search" type="search" placeholder="ابحث باسم الشركة أو الرمز" autocomplete="off"></label>
+            <button id="clear" class="clear-button" type="button" hidden>مسح البحث</button>
+          </div>
+        </div>
+        <nav id="sector-nav" class="sector-nav" aria-label="اختيار القطاع"></nav>
+        <div class="table-tools">
+          <span class="table-tools-label">الأعمدة</span>
+          <div id="col-views" class="col-switch" role="group" aria-label="أعمدة الجدول"><button type="button" data-cols="val" aria-pressed="true">التقييم</button><button type="button" data-cols="perf" aria-pressed="false">الأداء</button><button type="button" data-cols="trade" aria-pressed="false">التداول</button><button type="button" data-cols="all" aria-pressed="false">الكل</button></div>
+          <div class="eps-switch" role="group" aria-label="نوع ربحية السهم"><button id="recurring-mode" type="button" class="selected" aria-pressed="true">ربحية السهم المخفضة</button><button id="reported-mode" type="button" aria-pressed="false">ربحية السهم الأساسية</button></div>
+          <span id="status-brief" class="status-brief" aria-hidden="true"></span>
+        </div>
+        <details class="read-guide">
+          <summary>دليل القراءة والمصادر وحالة التحديث</summary>
+          <div class="table-note"><span class="note-icon">i</span><span>«جميع القطاعات» جدول واحد مرتب افتراضيًا من الأكبر قيمة سوقية إلى الأصغر. اضغط أي عنوان عمود لتغيير الترتيب. تُفحص نسخة الأسعار كل دقيقة وعند العودة للصفحة؛ أسعار الإغلاق من TradingView منفصلة عن الأسعار المتأخرة أثناء الجلسة. يظهر المصدر والتاريخ. تغير القطاع مرجح محسوب لجميع شركاته وليس مؤشرًا رسميًا. في الوضع الافتراضي تُعرض ربحية السهم المخفضة (diluted) من SEC EDGAR عند توفرها، وفي الوضع الثاني ربحية السهم الأساسية (basic)؛ وعند غياب بيانات EDGAR تُعرض القيمة من TradingView. يُحفظ عائد التوزيع من ملف البيانات وفق مصدره. تعني «—» أن القيمة غير متاحة، ويُعرض المكرر «خاسرة» عندما تكون الربحية سالبة.</span></div>
+          <p id="price-status" class="financial-status" role="status" aria-live="polite">جار تحميل الأسعار…</p>
+          <p id="financial-status" class="financial-status" role="status" aria-live="polite">جار تحميل بيانات الأرباح…</p>
+        </details>
+        <div id="sectors" class="sections" data-cols="val"></div>
+        <div id="empty" class="empty" hidden><div class="empty-icon">⌕</div><h3>لا توجد نتائج مطابقة</h3><p>جرّب البحث باسم آخر أو برمز السهم.</p></div>
+      </section>
+
+    </main>
+  </div>
+  <script src="app.js?v=us-20261113" defer></script>
+  <script src="sticky-header.js?v=20261105" defer></script>
+  <script src="layout.js?v=20261113" defer></script>
+</body>
+</html>

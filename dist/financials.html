@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11161d">
+  <meta name="description" content="النتائج المالية السنوية لشركات قطاع المالية الأمريكي، من ملفات SEC EDGAR.">
+  <title>نتائج المالية | السوق الأمريكي</title>
+  <script src="theme.js?v=20261105"></script>
+  <link rel="stylesheet" href="styles.css?v=us-20261113">
+  <link rel="stylesheet" href="banks.css?v=us-20261113">
+  <link rel="stylesheet" href="bank-charts.css?v=us-20261113">
+  <link rel="stylesheet" href="theme.css?v=20261105">
+  <link rel="stylesheet" href="layout.css?v=20261113b">
+  <link rel="icon" href="favicon.ico?v=20261113" sizes="any" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=20261113">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png?v=20261113">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=20261113">
+  <link rel="manifest" href="site.webmanifest?v=20261113">
+</head>
+<body class="banks-page" data-sector-id="financials" data-sector-name="المالية" data-sector-slug="financials">
+  <main class="main-content" id="financials-main">
+    <header class="site-bar">
+      <h1 class="site-name"><a href="index.html">السوق الأمريكي</a></h1>
+      <div class="hero-date">النتائج السنوية لقطاع المالية · <bdi id="financials-years-bdi">—</bdi></div>
+      <nav class="site-nav" aria-label="صفحات الموقع"><a href="index.html">الشركات</a><a href="comparison.html">مقارنة النتائج المالية</a></nav>
+      <div class="theme-switch" role="group" aria-label="اختيار مظهر الموقع"><span class="theme-switch-label">المظهر</span><button type="button" data-theme-option="light" aria-pressed="false">فاتح</button><button type="button" data-theme-option="dark" aria-pressed="true">داكن</button></div>
+    </header>
+    <div class="bank-breadcrumb"><p><a href="index.html">الشركات</a><span aria-hidden="true"> / </span><span>نتائج المالية</span></p></div>
+    <nav id="financials-nav" class="bank-nav" aria-label="اختيار شركة قطاع المالية"></nav>
+    <p id="financials-load-status" class="financial-status" role="status" aria-live="polite">جار تحميل بيانات قطاع المالية…</p>
+    <section id="financials-panel" class="bank-panel" aria-labelledby="financials-title" hidden>
+      <div class="bank-heading"><div><h2 id="financials-title"></h2><p id="financials-subtitle"></p></div><span class="bank-period">السنوات المتاحة في الملف <bdi>—</bdi></span></div>
+      <p class="bank-unit-note">المبالغ بمليون دولار؛ ربح السهم بالدولار.</p>
+      <div class="bank-table-hint">اسحب الجدول أفقيًا لرؤية السنوات كاملة. «التغير» هو نسبة تغير السنة عن السابقة، وليس فرق النسب بالنقاط المئوية.</div>
+      <div id="financials-table-wrap" class="table-wrap annual-table-wrap" tabindex="0" aria-label="جدول النتائج السنوية لقطاع المالية"></div>
+      <section id="financials-charts" class="bank-charts" aria-labelledby="financials-charts-title"><div class="bank-charts-heading"><h3 id="financials-charts-title">المقارنة بالأعمدة</h3><p id="financials-charts-context"></p></div><div class="bank-chart-control"><label for="financials-chart-metric">البند المراد مقارنته</label><select id="financials-chart-metric" aria-describedby="financials-chart-selection-status"></select></div><p id="financials-chart-selection-status" class="bank-chart-selection-status" role="status" aria-live="polite"></p><div id="financials-charts-grid" class="bank-charts-grid"></div><p class="bank-charts-footnote">اختر أي بند لعرض مقارنة السنوات. المبالغ بالمليار دولار بعد تحويلها من القيم الأصلية بالمليون دولار، وربحية السهم بالدولار. «—» تعني أن القيمة غير متاحة.</p></section>
+      <details class="bank-notes"><summary id="financials-notes-title">ملاحظات البيانات</summary><ul><li>المصدر: SEC EDGAR (قوائم الشركات المالية الرسمية في 10-K و20-F).</li><li>البيانات المعروضة سنوية فقط (FY) للسنوات المتاحة في الملف؛ لا تُدرج بيانات الربع الرابع المنفصلة.</li><li>تُظهر السنوات غير المتاحة علامة «—» دون أي أرقام افتراضية.</li></ul><p id="financials-import-info"></p></details>
+    </section>
+    <footer class="footer"><p>نتائج سنوية محفوظة داخل المشروع · لا يحتاج العرض إلى خدمة ذكاء اصطناعي.</p></footer>
+    <noscript><p class="financial-status">يرجى تفعيل JavaScript لعرض بيانات قطاع المالية.</p></noscript>
+  </main>
+  <script type="module" src="sector-page.js?v=us-20261113"></script>
+  <script src="layout.js?v=20261113" defer></script>
+</body>
+</html>
