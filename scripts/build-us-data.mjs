@@ -196,7 +196,7 @@ async function main() {
   for (const c of top) {
     const sector = SECTOR_MAP[c.tvSector];
     if (!sectors.has(sector.name)) { sectors.set(sector.name, { ...sector, stocks: [] }); sectorOrder.push(sector.name); }
-    const shares = c.close > 0 ? Math.round(c.marketCap * 1e6 / c.close) : null;
+    const shares = c.close > 0 ? Math.round(c.marketCap / c.close) : null; // marketCap مطلق بالدولار
     const tradedValue = c.close != null && c.volume != null ? Math.round(c.close * c.volume) : null;
     sectors.get(sector.name).stocks.push({
       symbol: c.ticker,
@@ -206,7 +206,7 @@ async function main() {
       price: round(c.close, 2),
       eps: c.eps == null ? null : round(c.eps, 3),
       pe: c.pe == null ? null : round(c.pe, 2),
-      bookValue: null, // تُملأ من financial-map.json (SEC EDGAR) عند توفرها
+      bookValue: c.pb != null && c.pb > 0 && c.close > 0 ? round(c.close / c.pb, 2) : null, // تقدير TradingView؛ يُستبدل بـ EDGAR عند توفره
       pb: c.pb == null ? null : round(c.pb, 2),
       marketCap: c.marketCap == null ? null : Math.round(c.marketCap / 1e6), // بمليون دولار
       day: round(c.change, 2),

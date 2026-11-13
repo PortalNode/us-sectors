@@ -50,12 +50,20 @@ function extractAnnual(facts, conceptTags, { scale = 1 } = {}) {
     for (const tag of conceptTags[namespace === 'us-gaap' ? 'usGaap' : 'ifrs'] || []) {
       const concept = unitBuckets[tag];
       if (!concept) continue;
-      for (const units of Object.values(concept.units || {})) {
+      for (const [unitKey, units] of Object.entries(concept.units || {})) {
+        // نقبل الدولار الأمريكي فقط: المال بوحدة USD وربحية السهم بوحدة USD/shares،
+        // حتى لا تختلط التقارير بالدولار الكندي أو عملات أخرى.
+        if (unitKey !== 'USD' && !unitKey.endsWith('USD/shares')) continue;
         for (const entry of units) {
-          if (!['10-K', '10-K/A', '20-F', '20-F/A'].includes(entry.form)) continue;
+          if (!['10-K', '10-K/A', '20-F', '20-F/A', '40-F', '40-F/A'].includes(entry.form)) continue;
           if (entry.fp && entry.fp !== 'FY') continue;
-          const year = Number(entry.fy) || Number(String(entry.end || '').slice(0, 4));
-          if (!Number.isInteger(year) || year < 2015) continue;
+          // السنة = سنة تاريخ نهاية الفترة المالية (مستقرة حتى مع الشركات ذات السنة المالية غير التقويمية)
+          const endYear = Number(String(entry.end || '').slice(0, 4));
+          if (!Number.isInteger(endYear) || endYear < 2015) continue;
+          const today = Number(new Date().toISOString().slice(0, 10).replace(/-/g, ''));
+          const endCompact = Number(String(entry.end || '').replace(/-/g, ''));
+          if (endCompact > today) continue; // فترة مستقبلية: تجاهل
+          const year = endYear;
           if (entry.val == null || !Number.isFinite(Number(entry.val))) continue;
           // تفضيل أحدث إيداع لكل سنة
           const filed = Number(String(entry.fileddate || entry.accn || '').slice(0, 10).replace(/-/g, '')) || 0;
@@ -85,7 +93,10 @@ async function main() {
   console.log('جلب خريطة الرموز من SEC…');
   const tickersRes = await fetch('https://www.sec.gov/files/company_tickers.json', { headers: { 'user-agent': USER_AGENT } });
   const tickersJson = await tickersRes.json();
-  const cikByTicker = new Map(Object.values(tickersJson).map(row => [String(row.ticker).toUpperCase(), Number(row.cik_str)]));
+  const cikByTicker = new Map(Object.values(tickersJson).map(row => [String(row.ticker).toUpperCase().replace(/[^A-Z0-9]/g, ''), Number(row.cik_str)]));
+  // تخصيصات يدوية: شركات انقسم CIK الخاص بها وتبقى القوائم السنوية في الملف القديم
+  const CIK_OVERRIDES = { XOM: 34088 }; // ExxonMobil: القوائم السنوية (10-K) في Exxon Mobil Corporation CIK 34088
+  Object.assign(cikByTicker, Object.fromEntries(Object.entries(CIK_OVERRIDES).map(([t, cik]) => [t, cik])));
 
   const companies = data.sectors.flatMap(sector => sector.stocks.map(stock => ({ ...stock, sectorName: sector.name, sectorSlug: sector.slug })));
   const targets = limitArg ? companies.slice(0, limitArg) : companies;
@@ -159,7 +170,8 @@ async function main() {
       });
       if (latest?.values.dilutedEps != null || latest?.values.basicEps != null) {
         // القيمة الدفترية للسهم: حقوق المساهمين ÷ عدد الأسهم المخزن في data.json
-        const bookPerShare = stock.shares > 0 && latest.values.equity != null ? round(latest.values.equity * 1e6 / stock.shares, 2) : null;
+        // (تُترك null عندما تكون الحقوق صفرًا أو سالبة بعد إعادة شراء الأسهم)
+        const bookPerShare = stock.shares > 0 && latest.values.equity != null && latest.values.equity > 0 ? round(latest.values.equity * 1e6 / stock.shares, 2) : null;
         mapSnapshot[stock.symbol] = {
           symbol: stock.symbol,
           diluted: latest.values.dilutedEps ?? null,

@@ -33,6 +33,7 @@ function selectCompany(symbol, replaceHistory = false) {
   $('nav').innerHTML = dataset.companies.map(item => `<button type="button" class="bank-tab" data-company="${escapeHtml(item.symbol)}" aria-pressed="${item.symbol === company.symbol}" title="نتائج ${escapeHtml(item.name)} ${escapeHtml(item.symbol)}">${escapeHtml(item.name)}</button>`).join('');
   $('title').innerHTML = `${escapeHtml(company.name)} <span class="symbol-badge">${escapeHtml(company.symbol)}</span>`;
   $('subtitle').textContent = `${company.fullName || company.name} · قطاع ${config.sector} · نتائج سنوية فقط`;
+  document.querySelector('.bank-period bdi')?.replaceChildren(document.createTextNode(`${dataset.years[0]}–${dataset.years.at(-1)}`));
   const availableYears = company.years.map(record => record.year).sort((a, b) => a - b);
   activeYears = availableYears;
   $('table-wrap').innerHTML = renderAnnualTable(company, availableYears);

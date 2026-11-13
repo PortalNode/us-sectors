@@ -18,7 +18,7 @@ const esc = v => String(v ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;',
 const nf = d => new Intl.NumberFormat('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
 const NF = [nf(0),nf(1),nf(2)];
 
-const state = { sector:'agriculture', metric:'netProfit', years:[], symbols:[], view:'bars', sort:{key:null,dir:-1}, query:'' };
+const state = { sector:'financials', metric:'netProfit', years:[], symbols:[], view:'bars', sort:{key:null,dir:-1}, query:'' };
 let companies = [], allYears = [], slots = new Map(), valueIndex = new Map();
 
 const isPct = k => k.endsWith('Margin') || k.endsWith('Share') || k==='loansToDeposits' || k==='returnOnEquity';

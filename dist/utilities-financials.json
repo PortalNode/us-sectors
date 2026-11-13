@@ -1,11 +1,386 @@
 {
  "schemaVersion": 1,
  "sector": "المرافق",
- "years": [],
+ "years": [
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
  "source": {
   "name": "SEC EDGAR companyfacts",
   "provider": "SEC EDGAR",
   "url": "https://data.sec.gov/api/xbrl/companyfacts/"
  },
- "companies": []
+ "companies": [
+  {
+   "symbol": "DUK",
+   "name": "ديوك إنرجي",
+   "fullName": "ديوك إنرجي (DUK) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 24486,
+      "grossIncome": null,
+      "operatingIncome": 1110,
+      "netProfit": 664,
+      "assets": 169587,
+      "equity": 51136,
+      "dilutedEps": 0.93,
+      "basicEps": 0.93,
+      "operatingMargin": 0.04533,
+      "netMargin": 0.02712,
+      "returnOnEquity": 0.01298
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 28675,
+      "grossIncome": null,
+      "operatingIncome": 1194,
+      "netProfit": -658,
+      "assets": 178086,
+      "equity": 51853,
+      "dilutedEps": -0.86,
+      "basicEps": -0.86,
+      "operatingMargin": 0.04164,
+      "netMargin": -0.02295,
+      "returnOnEquity": -0.01269
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 28674,
+      "grossIncome": null,
+      "operatingIncome": 1855,
+      "netProfit": 996,
+      "assets": 176893,
+      "equity": 50187,
+      "dilutedEps": 1.27,
+      "basicEps": 1.27,
+      "operatingMargin": 0.06469,
+      "netMargin": 0.03474,
+      "returnOnEquity": 0.01985
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 30050,
+      "grossIncome": null,
+      "operatingIncome": 7926,
+      "netProfit": 4614,
+      "assets": 186343,
+      "equity": 51256,
+      "dilutedEps": 5.71,
+      "basicEps": 5.71,
+      "operatingMargin": 0.26376,
+      "netMargin": 0.15354,
+      "returnOnEquity": 0.09002
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 31741,
+      "grossIncome": null,
+      "operatingIncome": 8626,
+      "netProfit": 5071,
+      "assets": 195736,
+      "equity": 53019,
+      "dilutedEps": 6.31,
+      "basicEps": 6.31,
+      "operatingMargin": 0.27176,
+      "netMargin": 0.15976,
+      "returnOnEquity": 0.09564
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "SO",
+   "name": "ساوثرن كومباني",
+   "fullName": "ساوثرن كومباني (SO) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 23463,
+      "grossIncome": null,
+      "operatingIncome": 3698,
+      "netProfit": 2309,
+      "assets": 127534,
+      "equity": 32276,
+      "dilutedEps": 2.24,
+      "basicEps": 2.26,
+      "operatingMargin": 0.15761,
+      "netMargin": 0.09841,
+      "returnOnEquity": 0.07154
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 25941,
+      "grossIncome": null,
+      "operatingIncome": 5370,
+      "netProfit": 3428,
+      "assets": 134891,
+      "equity": 34532,
+      "dilutedEps": 3.26,
+      "basicEps": 3.28,
+      "operatingMargin": 0.20701,
+      "netMargin": 0.13215,
+      "returnOnEquity": 0.09927
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 24828,
+      "grossIncome": null,
+      "operatingIncome": 5826,
+      "netProfit": 3849,
+      "assets": 139331,
+      "equity": 35225,
+      "dilutedEps": 3.62,
+      "basicEps": 3.64,
+      "operatingMargin": 0.23465,
+      "netMargin": 0.15503,
+      "returnOnEquity": 0.10927
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 26764,
+      "grossIncome": null,
+      "operatingIncome": 7068,
+      "netProfit": 4260,
+      "assets": 145180,
+      "equity": 36674,
+      "dilutedEps": 3.99,
+      "basicEps": 4.02,
+      "operatingMargin": 0.26409,
+      "netMargin": 0.15917,
+      "returnOnEquity": 0.11616
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 28942,
+      "grossIncome": null,
+      "operatingIncome": 7285,
+      "netProfit": 4171,
+      "assets": 155720,
+      "equity": 38867,
+      "dilutedEps": 3.92,
+      "basicEps": 3.94,
+      "operatingMargin": 0.25171,
+      "netMargin": 0.14412,
+      "returnOnEquity": 0.10731
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "CEG",
+   "name": "كونستليشن إنرجي",
+   "fullName": "كونستليشن إنرجي (CEG) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 18461,
+      "grossIncome": null,
+      "operatingIncome": -346,
+      "netProfit": -83,
+      "assets": 48086,
+      "equity": 11614,
+      "dilutedEps": 0,
+      "basicEps": 0,
+      "operatingMargin": -0.01874,
+      "netMargin": -0.0045,
+      "returnOnEquity": -0.00715
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 24280,
+      "grossIncome": null,
+      "operatingIncome": 495,
+      "netProfit": -318,
+      "assets": 46909,
+      "equity": 11372,
+      "dilutedEps": -0.49,
+      "basicEps": -0.49,
+      "operatingMargin": 0.02039,
+      "netMargin": -0.0131,
+      "returnOnEquity": -0.02796
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 24918,
+      "grossIncome": null,
+      "operatingIncome": 1610,
+      "netProfit": 1577,
+      "assets": 50758,
+      "equity": 11286,
+      "dilutedEps": 5.01,
+      "basicEps": 5.02,
+      "operatingMargin": 0.06461,
+      "netMargin": 0.06329,
+      "returnOnEquity": 0.13973
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 23568,
+      "grossIncome": null,
+      "operatingIncome": 4352,
+      "netProfit": 3738,
+      "assets": 52926,
+      "equity": 13539,
+      "dilutedEps": 11.89,
+      "basicEps": 11.91,
+      "operatingMargin": 0.18466,
+      "netMargin": 0.1586,
+      "returnOnEquity": 0.27609
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 25533,
+      "grossIncome": null,
+      "operatingIncome": 3086,
+      "netProfit": 2323,
+      "assets": 57249,
+      "equity": 14853,
+      "dilutedEps": 7.4,
+      "basicEps": 7.4,
+      "operatingMargin": 0.12086,
+      "netMargin": 0.09098,
+      "returnOnEquity": 0.1564
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "NEE",
+   "name": "نكستيرا إنرجي",
+   "fullName": "نكستيرا إنرجي (NEE) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 18800,
+      "grossIncome": null,
+      "operatingIncome": 2913,
+      "netProfit": 2827,
+      "assets": 140912,
+      "equity": 45424,
+      "dilutedEps": 1.81,
+      "basicEps": 1.82,
+      "operatingMargin": 0.15495,
+      "netMargin": 0.15037,
+      "returnOnEquity": 0.06224
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 23000,
+      "grossIncome": null,
+      "operatingIncome": 4081,
+      "netProfit": 3246,
+      "assets": 158935,
+      "equity": 48326,
+      "dilutedEps": 2.1,
+      "basicEps": 2.1,
+      "operatingMargin": 0.17743,
+      "netMargin": 0.14113,
+      "returnOnEquity": 0.06717
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 24800,
+      "grossIncome": null,
+      "operatingIncome": 10237,
+      "netProfit": 6282,
+      "assets": 177489,
+      "equity": 57768,
+      "dilutedEps": 3.6,
+      "basicEps": 3.61,
+      "operatingMargin": 0.41278,
+      "netMargin": 0.25331,
+      "returnOnEquity": 0.10875
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 23500,
+      "grossIncome": null,
+      "operatingIncome": 7479,
+      "netProfit": 5698,
+      "assets": 190144,
+      "equity": 60460,
+      "dilutedEps": 3.37,
+      "basicEps": 3.38,
+      "operatingMargin": 0.31826,
+      "netMargin": 0.24247,
+      "returnOnEquity": 0.09424
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 25800,
+      "grossIncome": null,
+      "operatingIncome": 8280,
+      "netProfit": 5332,
+      "assets": 212721,
+      "equity": 66479,
+      "dilutedEps": 3.3,
+      "basicEps": 3.31,
+      "operatingMargin": 0.32093,
+      "netMargin": 0.20667,
+      "returnOnEquity": 0.08021
+     }
+    }
+   ]
+  }
+ ]
 }

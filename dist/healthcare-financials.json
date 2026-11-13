@@ -1,11 +1,2043 @@
 {
  "schemaVersion": 1,
  "sector": "الصحة",
- "years": [],
+ "years": [
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
  "source": {
   "name": "SEC EDGAR companyfacts",
   "provider": "SEC EDGAR",
   "url": "https://data.sec.gov/api/xbrl/companyfacts/"
  },
- "companies": []
+ "companies": [
+  {
+   "symbol": "ABBV",
+   "name": "أبفي",
+   "fullName": "أبفي (ABBV) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 56197,
+      "grossIncome": 10566,
+      "operatingIncome": 17924,
+      "netProfit": 11549,
+      "assets": 146529,
+      "equity": 15436,
+      "dilutedEps": 2.26,
+      "basicEps": 2.27,
+      "grossMargin": 0.18802,
+      "operatingMargin": 0.31895,
+      "netMargin": 0.20551,
+      "returnOnEquity": 0.74819
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 58054,
+      "grossIncome": 10951,
+      "operatingIncome": 18117,
+      "netProfit": 11845,
+      "assets": 138805,
+      "equity": 17287,
+      "dilutedEps": 1.38,
+      "basicEps": 1.39,
+      "grossMargin": 0.18863,
+      "operatingMargin": 0.31207,
+      "netMargin": 0.20403,
+      "returnOnEquity": 0.6852
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 54318,
+      "grossIncome": 8597,
+      "operatingIncome": 12757,
+      "netProfit": 4873,
+      "assets": 134711,
+      "equity": 10397,
+      "dilutedEps": 0.46,
+      "basicEps": 0.46,
+      "grossMargin": 0.15827,
+      "operatingMargin": 0.23486,
+      "netMargin": 0.08971,
+      "returnOnEquity": 0.46869
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 56334,
+      "grossIncome": 10706,
+      "operatingIncome": 9137,
+      "netProfit": 4286,
+      "assets": 135161,
+      "equity": 3364,
+      "dilutedEps": -0.02,
+      "basicEps": -0.02,
+      "grossMargin": 0.19005,
+      "operatingMargin": 0.16219,
+      "netMargin": 0.07608,
+      "returnOnEquity": 1.27408
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 61160,
+      "grossIncome": 12066,
+      "operatingIncome": 15075,
+      "netProfit": 4233,
+      "assets": 133960,
+      "equity": -3228,
+      "dilutedEps": 1.02,
+      "basicEps": 1.02,
+      "grossMargin": 0.19729,
+      "operatingMargin": 0.24648,
+      "netMargin": 0.06921,
+      "returnOnEquity": -1.31134
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "ABT",
+   "name": "أبوت",
+   "fullName": "أبوت (ABT) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 43075,
+      "grossIncome": null,
+      "operatingIncome": 8425,
+      "netProfit": 7071,
+      "assets": 75196,
+      "equity": 36024,
+      "dilutedEps": 3.94,
+      "basicEps": 3.97,
+      "operatingMargin": 0.19559,
+      "netMargin": 0.16416,
+      "returnOnEquity": 0.19629
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 43653,
+      "grossIncome": null,
+      "operatingIncome": 8362,
+      "netProfit": 6933,
+      "assets": 74438,
+      "equity": 36905,
+      "dilutedEps": 3.91,
+      "basicEps": 3.94,
+      "operatingMargin": 0.19156,
+      "netMargin": 0.15882,
+      "returnOnEquity": 0.18786
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 40109,
+      "grossIncome": null,
+      "operatingIncome": 6478,
+      "netProfit": 5723,
+      "assets": 73214,
+      "equity": 38827,
+      "dilutedEps": 3.26,
+      "basicEps": 3.28,
+      "operatingMargin": 0.16151,
+      "netMargin": 0.14269,
+      "returnOnEquity": 0.1474
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 41950,
+      "grossIncome": null,
+      "operatingIncome": 6825,
+      "netProfit": 13402,
+      "assets": 81414,
+      "equity": 47901,
+      "dilutedEps": 7.64,
+      "basicEps": 7.67,
+      "operatingMargin": 0.16269,
+      "netMargin": 0.31948,
+      "returnOnEquity": 0.27979
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 44328,
+      "grossIncome": null,
+      "operatingIncome": 8053,
+      "netProfit": 6524,
+      "assets": 86713,
+      "equity": 52771,
+      "dilutedEps": 3.72,
+      "basicEps": 3.73,
+      "operatingMargin": 0.18167,
+      "netMargin": 0.14718,
+      "returnOnEquity": 0.12363
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "HCA",
+   "name": "إتش سي إيه هيلثكير",
+   "fullName": "إتش سي إيه هيلثكير (HCA) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 58752,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 7721,
+      "assets": 50742,
+      "equity": 1489,
+      "dilutedEps": 21.16,
+      "basicEps": 21.52,
+      "netMargin": 0.13142,
+      "returnOnEquity": 5.18536
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 60233,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 6834,
+      "assets": 52438,
+      "equity": -73,
+      "dilutedEps": 19.15,
+      "basicEps": 19.43,
+      "netMargin": 0.11346,
+      "returnOnEquity": -93.61644
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 64968,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 6091,
+      "assets": 56211,
+      "equity": 1060,
+      "dilutedEps": 18.97,
+      "basicEps": 19.25,
+      "netMargin": 0.09375,
+      "returnOnEquity": 5.74623
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 70603,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 6657,
+      "assets": 59513,
+      "equity": 555,
+      "dilutedEps": 22,
+      "basicEps": 22.27,
+      "netMargin": 0.09429,
+      "returnOnEquity": 11.99459
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 75600,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 7782,
+      "assets": 60720,
+      "equity": -2771,
+      "dilutedEps": 28.33,
+      "basicEps": 28.7,
+      "netMargin": 0.10294,
+      "returnOnEquity": -2.80837
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "AZN",
+   "name": "أسترازينيكا",
+   "fullName": "أسترازينيكا (AZN) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 37417,
+      "grossIncome": 24980,
+      "operatingIncome": 1056,
+      "netProfit": 115,
+      "assets": 105363,
+      "equity": 39287,
+      "dilutedEps": null,
+      "basicEps": null,
+      "grossMargin": 0.66761,
+      "operatingMargin": 0.02822,
+      "netMargin": 0.00307,
+      "returnOnEquity": 0.00293
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 44351,
+      "grossIncome": 31960,
+      "operatingIncome": 3757,
+      "netProfit": 3293,
+      "assets": 96483,
+      "equity": 37058,
+      "dilutedEps": null,
+      "basicEps": null,
+      "grossMargin": 0.72062,
+      "operatingMargin": 0.08471,
+      "netMargin": 0.07425,
+      "returnOnEquity": 0.08886
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 45811,
+      "grossIncome": 37543,
+      "operatingIncome": 8193,
+      "netProfit": 5961,
+      "assets": 101119,
+      "equity": 39166,
+      "dilutedEps": null,
+      "basicEps": null,
+      "grossMargin": 0.81952,
+      "operatingMargin": 0.17884,
+      "netMargin": 0.13012,
+      "returnOnEquity": 0.1522
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 54073,
+      "grossIncome": 43866,
+      "operatingIncome": 10003,
+      "netProfit": 7041,
+      "assets": 104035,
+      "equity": 40871,
+      "dilutedEps": null,
+      "basicEps": null,
+      "grossMargin": 0.81124,
+      "operatingMargin": 0.18499,
+      "netMargin": 0.13021,
+      "returnOnEquity": 0.17227
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 58739,
+      "grossIncome": 48106,
+      "operatingIncome": 13743,
+      "netProfit": 10233,
+      "assets": 114074,
+      "equity": 48719,
+      "dilutedEps": null,
+      "basicEps": null,
+      "grossMargin": 0.81898,
+      "operatingMargin": 0.23397,
+      "netMargin": 0.17421,
+      "returnOnEquity": 0.21004
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "AMGN",
+   "name": "أمجن",
+   "fullName": "أمجن (AMGN) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 25979,
+      "grossIncome": null,
+      "operatingIncome": 7639,
+      "netProfit": 5893,
+      "assets": 61165,
+      "equity": 6700,
+      "dilutedEps": 10.28,
+      "basicEps": 10.34,
+      "operatingMargin": 0.29405,
+      "netMargin": 0.22684,
+      "returnOnEquity": 0.87955
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 26323,
+      "grossIncome": null,
+      "operatingIncome": 9566,
+      "netProfit": 6552,
+      "assets": 65121,
+      "equity": 3661,
+      "dilutedEps": 12.11,
+      "basicEps": 12.18,
+      "operatingMargin": 0.36341,
+      "netMargin": 0.24891,
+      "returnOnEquity": 1.78967
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 28190,
+      "grossIncome": null,
+      "operatingIncome": 7897,
+      "netProfit": 6717,
+      "assets": 97154,
+      "equity": 6232,
+      "dilutedEps": 12.49,
+      "basicEps": 12.56,
+      "operatingMargin": 0.28013,
+      "netMargin": 0.23828,
+      "returnOnEquity": 1.07782
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 33424,
+      "grossIncome": null,
+      "operatingIncome": 7258,
+      "netProfit": 4090,
+      "assets": 91839,
+      "equity": 5877,
+      "dilutedEps": 7.56,
+      "basicEps": 7.62,
+      "operatingMargin": 0.21715,
+      "netMargin": 0.12237,
+      "returnOnEquity": 0.69593
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 36751,
+      "grossIncome": null,
+      "operatingIncome": 9080,
+      "netProfit": 7711,
+      "assets": 90586,
+      "equity": 8658,
+      "dilutedEps": 14.23,
+      "basicEps": 14.33,
+      "operatingMargin": 0.24707,
+      "netMargin": 0.20982,
+      "returnOnEquity": 0.89062
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "ISRG",
+   "name": "إنتويتف سيرجيكال",
+   "fullName": "إنتويتف سيرجيكال (ISRG) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 1550.7,
+      "grossIncome": 1060.8,
+      "operatingIncome": 1821,
+      "netProfit": 1728.1,
+      "assets": 13555,
+      "equity": 11951.5,
+      "dilutedEps": 1.03,
+      "basicEps": 1.07,
+      "grossMargin": 0.68408,
+      "operatingMargin": 1.17431,
+      "netMargin": 1.1144,
+      "returnOnEquity": 0.14459
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 6222.2,
+      "grossIncome": 4196,
+      "operatingIncome": 1577.1,
+      "netProfit": 1344.4,
+      "assets": 12974,
+      "equity": 11112.6,
+      "dilutedEps": 3.65,
+      "basicEps": 3.72,
+      "grossMargin": 0.67436,
+      "operatingMargin": 0.25346,
+      "netMargin": 0.21607,
+      "returnOnEquity": 0.12098
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 7124.1,
+      "grossIncome": 4729.5,
+      "operatingIncome": 1766.8,
+      "netProfit": 1817.3,
+      "assets": 15441.5,
+      "equity": 13397.3,
+      "dilutedEps": 5.03,
+      "basicEps": 5.12,
+      "grossMargin": 0.66387,
+      "operatingMargin": 0.248,
+      "netMargin": 0.25509,
+      "returnOnEquity": 0.13565
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 8352.1,
+      "grossIncome": 5634.2,
+      "operatingIncome": 2348.9,
+      "netProfit": 2337.5,
+      "assets": 18743.2,
+      "equity": 16529.6,
+      "dilutedEps": 6.42,
+      "basicEps": 6.54,
+      "grossMargin": 0.67458,
+      "operatingMargin": 0.28123,
+      "netMargin": 0.27987,
+      "returnOnEquity": 0.14141
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 10064.7,
+      "grossIncome": 6642.3,
+      "operatingIncome": 2945.5,
+      "netProfit": 2876.6,
+      "assets": 20458.7,
+      "equity": 17941.7,
+      "dilutedEps": 7.87,
+      "basicEps": 8,
+      "grossMargin": 0.65996,
+      "operatingMargin": 0.29266,
+      "netMargin": 0.28581,
+      "returnOnEquity": 0.16033
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "LLY",
+   "name": "إيلي ليلي",
+   "fullName": "إيلي ليلي (LLY) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 28318.4,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 5581.7,
+      "assets": 48806,
+      "equity": 9154.8,
+      "dilutedEps": 6.12,
+      "basicEps": 6.15,
+      "netMargin": 0.19711,
+      "returnOnEquity": 0.6097
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 28541.4,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 6244.8,
+      "assets": 49489.8,
+      "equity": 10775.4,
+      "dilutedEps": 6.9,
+      "basicEps": 6.93,
+      "netMargin": 0.2188,
+      "returnOnEquity": 0.57954
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 34124,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 5240,
+      "assets": 64006.3,
+      "equity": 10863.7,
+      "dilutedEps": 5.8,
+      "basicEps": 5.82,
+      "netMargin": 0.15356,
+      "returnOnEquity": 0.48234
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 45043,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 10590,
+      "assets": 78715,
+      "equity": 14271.6,
+      "dilutedEps": 11.71,
+      "basicEps": 11.76,
+      "netMargin": 0.23511,
+      "returnOnEquity": 0.74203
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 65179,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 20640,
+      "assets": 112476,
+      "equity": 26535,
+      "dilutedEps": 22.95,
+      "basicEps": 23,
+      "netMargin": 0.31667,
+      "returnOnEquity": 0.77784
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "ELV",
+   "name": "إيليفانس هيلث",
+   "fullName": "إيليفانس هيلث (ELV) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 138639,
+      "grossIncome": null,
+      "operatingIncome": 7559,
+      "netProfit": 6149,
+      "assets": 97460,
+      "equity": 36140,
+      "dilutedEps": 24.95,
+      "basicEps": 25.26,
+      "operatingMargin": 0.05452,
+      "netMargin": 0.04435,
+      "returnOnEquity": 0.17014
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 156595,
+      "grossIncome": null,
+      "operatingIncome": 8283,
+      "netProfit": 5888,
+      "assets": 102755,
+      "equity": 36330,
+      "dilutedEps": 24.28,
+      "basicEps": 24.56,
+      "operatingMargin": 0.05289,
+      "netMargin": 0.0376,
+      "returnOnEquity": 0.16207
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 171340,
+      "grossIncome": null,
+      "operatingIncome": 8499,
+      "netProfit": 5991,
+      "assets": 108928,
+      "equity": 39405,
+      "dilutedEps": 25.22,
+      "basicEps": 25.38,
+      "operatingMargin": 0.0496,
+      "netMargin": 0.03497,
+      "returnOnEquity": 0.15204
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 177011,
+      "grossIncome": null,
+      "operatingIncome": 7862,
+      "netProfit": 5971,
+      "assets": 116889,
+      "equity": 41426,
+      "dilutedEps": 25.68,
+      "basicEps": 25.81,
+      "operatingMargin": 0.04442,
+      "netMargin": 0.03373,
+      "returnOnEquity": 0.14414
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 199125,
+      "grossIncome": null,
+      "operatingIncome": 7199,
+      "netProfit": 5661,
+      "assets": 121494,
+      "equity": 44026,
+      "dilutedEps": 25.21,
+      "basicEps": 25.28,
+      "operatingMargin": 0.03615,
+      "netMargin": 0.02843,
+      "returnOnEquity": 0.12858
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "BMY",
+   "name": "بريستول مايرز سكويب",
+   "fullName": "بريستول مايرز سكويب (BMY) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 46385,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 7014,
+      "assets": 109314,
+      "equity": 36006,
+      "dilutedEps": 3.12,
+      "basicEps": 3.15,
+      "netMargin": 0.15121,
+      "returnOnEquity": 0.1948
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 46159,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 6345,
+      "assets": 96820,
+      "equity": 31118,
+      "dilutedEps": 2.95,
+      "basicEps": 2.97,
+      "netMargin": 0.13746,
+      "returnOnEquity": 0.2039
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 45006,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 8040,
+      "assets": 95159,
+      "equity": 29485,
+      "dilutedEps": 3.86,
+      "basicEps": 3.88,
+      "netMargin": 0.17864,
+      "returnOnEquity": 0.27268
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 48300,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": -8933,
+      "assets": 92603,
+      "equity": 16388,
+      "dilutedEps": -4.41,
+      "basicEps": -4.41,
+      "netMargin": -0.18495,
+      "returnOnEquity": -0.54509
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 48194,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 7055,
+      "assets": 90038,
+      "equity": 18506,
+      "dilutedEps": 3.46,
+      "basicEps": 3.47,
+      "netMargin": 0.14639,
+      "returnOnEquity": 0.38123
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "TMO",
+   "name": "ثيرمو فيشر ساينتفيك",
+   "fullName": "ثيرمو فيشر ساينتفيك (TMO) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 39211,
+      "grossIncome": null,
+      "operatingIncome": 10028,
+      "netProfit": 7728,
+      "assets": 95123,
+      "equity": 40855,
+      "dilutedEps": 19.46,
+      "basicEps": 19.62,
+      "operatingMargin": 0.25574,
+      "netMargin": 0.19709,
+      "returnOnEquity": 0.18916
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 44915,
+      "grossIncome": null,
+      "operatingIncome": 8393,
+      "netProfit": 6960,
+      "assets": 97154,
+      "equity": 44032,
+      "dilutedEps": 17.63,
+      "basicEps": 17.75,
+      "operatingMargin": 0.18686,
+      "netMargin": 0.15496,
+      "returnOnEquity": 0.15807
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 42857,
+      "grossIncome": null,
+      "operatingIncome": 6859,
+      "netProfit": 5955,
+      "assets": 98726,
+      "equity": 46724,
+      "dilutedEps": 15.45,
+      "basicEps": 15.52,
+      "operatingMargin": 0.16004,
+      "netMargin": 0.13895,
+      "returnOnEquity": 0.12745
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 42879,
+      "grossIncome": null,
+      "operatingIncome": 7337,
+      "netProfit": 6338,
+      "assets": 97321,
+      "equity": 49551,
+      "dilutedEps": 16.53,
+      "basicEps": 16.58,
+      "operatingMargin": 0.17111,
+      "netMargin": 0.14781,
+      "returnOnEquity": 0.12791
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 44556,
+      "grossIncome": null,
+      "operatingIncome": 7746,
+      "netProfit": 6721,
+      "assets": 110343,
+      "equity": 53415,
+      "dilutedEps": 17.74,
+      "basicEps": 17.77,
+      "operatingMargin": 0.17385,
+      "netMargin": 0.15084,
+      "returnOnEquity": 0.12583
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "JNJ",
+   "name": "جونسون آند جونسون",
+   "fullName": "جونسون آند جونسون (JNJ) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 82584,
+      "grossIncome": 54157,
+      "operatingIncome": null,
+      "netProfit": 14714,
+      "assets": 174894,
+      "equity": 63278,
+      "dilutedEps": 5.51,
+      "basicEps": 5.59,
+      "grossMargin": 0.65578,
+      "netMargin": 0.17817,
+      "returnOnEquity": 0.23253
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 19996,
+      "grossIncome": 13824,
+      "operatingIncome": null,
+      "netProfit": 4458,
+      "assets": 182018,
+      "equity": 74023,
+      "dilutedEps": 1.68,
+      "basicEps": 1.7,
+      "grossMargin": 0.69134,
+      "netMargin": 0.22294,
+      "returnOnEquity": 0.06022
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 21395,
+      "grossIncome": 14597,
+      "operatingIncome": null,
+      "netProfit": 4049,
+      "assets": 167558,
+      "equity": 68774,
+      "dilutedEps": 1.67,
+      "basicEps": 1.68,
+      "grossMargin": 0.68226,
+      "netMargin": 0.18925,
+      "returnOnEquity": 0.05887
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 88821,
+      "grossIncome": 61350,
+      "operatingIncome": null,
+      "netProfit": 14066,
+      "assets": 180104,
+      "equity": 71490,
+      "dilutedEps": 5.79,
+      "basicEps": 5.84,
+      "grossMargin": 0.69072,
+      "netMargin": 0.15836,
+      "returnOnEquity": 0.19675
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 94193,
+      "grossIncome": 63937,
+      "operatingIncome": null,
+      "netProfit": 26804,
+      "assets": 199210,
+      "equity": 81544,
+      "dilutedEps": 11.03,
+      "basicEps": 11.13,
+      "grossMargin": 0.67879,
+      "netMargin": 0.28456,
+      "returnOnEquity": 0.32871
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "GILD",
+   "name": "جيلياد ساينسز",
+   "fullName": "جيلياد ساينسز (GILD) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 27305,
+      "grossIncome": null,
+      "operatingIncome": 9918,
+      "netProfit": 6201,
+      "assets": 67952,
+      "equity": 21064,
+      "dilutedEps": 4.93,
+      "basicEps": 4.96,
+      "operatingMargin": 0.36323,
+      "netMargin": 0.2271,
+      "returnOnEquity": 0.29439
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 27281,
+      "grossIncome": null,
+      "operatingIncome": 7330,
+      "netProfit": 4566,
+      "assets": 63171,
+      "equity": 21209,
+      "dilutedEps": 3.64,
+      "basicEps": 3.66,
+      "operatingMargin": 0.26869,
+      "netMargin": 0.16737,
+      "returnOnEquity": 0.21529
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 27116,
+      "grossIncome": null,
+      "operatingIncome": 7605,
+      "netProfit": 5613,
+      "assets": 62125,
+      "equity": 22749,
+      "dilutedEps": 4.5,
+      "basicEps": 4.54,
+      "operatingMargin": 0.28046,
+      "netMargin": 0.207,
+      "returnOnEquity": 0.24674
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 28754,
+      "grossIncome": null,
+      "operatingIncome": 1662,
+      "netProfit": 480,
+      "assets": 58995,
+      "equity": 19246,
+      "dilutedEps": 0.38,
+      "basicEps": 0.38,
+      "operatingMargin": 0.0578,
+      "netMargin": 0.01669,
+      "returnOnEquity": 0.02494
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 29443,
+      "grossIncome": null,
+      "operatingIncome": 10022,
+      "netProfit": 8510,
+      "assets": 59023,
+      "equity": 22618,
+      "dilutedEps": 6.78,
+      "basicEps": 6.84,
+      "operatingMargin": 0.34039,
+      "netMargin": 0.28903,
+      "returnOnEquity": 0.37625
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "DHR",
+   "name": "داناهر",
+   "fullName": "داناهر (DHR) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 24802,
+      "grossIncome": 15239,
+      "operatingIncome": 6377,
+      "netProfit": 6433,
+      "assets": 83184,
+      "equity": 45177,
+      "dilutedEps": 8.61,
+      "basicEps": 8.77,
+      "grossMargin": 0.61443,
+      "operatingMargin": 0.25712,
+      "netMargin": 0.25937,
+      "returnOnEquity": 0.1424
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 7134,
+      "grossIncome": 4226,
+      "operatingIncome": 1997,
+      "netProfit": 7209,
+      "assets": 84350,
+      "equity": 50090,
+      "dilutedEps": 2.99,
+      "basicEps": 3.03,
+      "grossMargin": 0.59237,
+      "operatingMargin": 0.27993,
+      "netMargin": 1.01051,
+      "returnOnEquity": 0.14392
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 6405,
+      "grossIncome": 3779,
+      "operatingIncome": 1337,
+      "netProfit": 4764,
+      "assets": 84488,
+      "equity": 53490,
+      "dilutedEps": 1.45,
+      "basicEps": 1.46,
+      "grossMargin": 0.59001,
+      "operatingMargin": 0.20874,
+      "netMargin": 0.74379,
+      "returnOnEquity": 0.08906
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 23875,
+      "grossIncome": 14206,
+      "operatingIncome": 4863,
+      "netProfit": 3899,
+      "assets": 77542,
+      "equity": 49550,
+      "dilutedEps": 5.29,
+      "basicEps": 5.33,
+      "grossMargin": 0.59502,
+      "operatingMargin": 0.20369,
+      "netMargin": 0.16331,
+      "returnOnEquity": 0.07869
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 24568,
+      "grossIncome": 14523,
+      "operatingIncome": 4690,
+      "netProfit": 3614,
+      "assets": 83464,
+      "equity": 52541,
+      "dilutedEps": 5.05,
+      "basicEps": 5.07,
+      "grossMargin": 0.59113,
+      "operatingMargin": 0.1909,
+      "netMargin": 0.1471,
+      "returnOnEquity": 0.06878
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "REGN",
+   "name": "ريجينيرون",
+   "fullName": "ريجينيرون (REGN) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 16071.7,
+      "grossIncome": null,
+      "operatingIncome": 8946.8,
+      "netProfit": 8075.3,
+      "assets": 25434.8,
+      "equity": 18768.8,
+      "dilutedEps": 71.97,
+      "basicEps": 76.4,
+      "operatingMargin": 0.55668,
+      "netMargin": 0.50245,
+      "returnOnEquity": 0.43025
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 12172.9,
+      "grossIncome": null,
+      "operatingIncome": 4738.9,
+      "netProfit": 4338.4,
+      "assets": 29214.5,
+      "equity": 22664,
+      "dilutedEps": 38.22,
+      "basicEps": 40.51,
+      "operatingMargin": 0.3893,
+      "netMargin": 0.3564,
+      "returnOnEquity": 0.19142
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 13117.2,
+      "grossIncome": null,
+      "operatingIncome": 4047.1,
+      "netProfit": 3953.6,
+      "assets": 33080.2,
+      "equity": 25973.1,
+      "dilutedEps": 34.77,
+      "basicEps": 37.05,
+      "operatingMargin": 0.30853,
+      "netMargin": 0.30141,
+      "returnOnEquity": 0.15222
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 14202,
+      "grossIncome": null,
+      "operatingIncome": 3990.7,
+      "netProfit": 4412.6,
+      "assets": 37759.4,
+      "equity": 29353.6,
+      "dilutedEps": 38.34,
+      "basicEps": 40.9,
+      "operatingMargin": 0.281,
+      "netMargin": 0.3107,
+      "returnOnEquity": 0.15033
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 14342.9,
+      "grossIncome": null,
+      "operatingIncome": 3577.9,
+      "netProfit": 4504.9,
+      "assets": 40558.7,
+      "equity": 31256.9,
+      "dilutedEps": 41.48,
+      "basicEps": 43.07,
+      "operatingMargin": 0.24945,
+      "netMargin": 0.31409,
+      "returnOnEquity": 0.14412
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "SYK",
+   "name": "ستراايكر",
+   "fullName": "ستراايكر (SYK) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 4701,
+      "grossIncome": 3045,
+      "operatingIncome": 2584,
+      "netProfit": 662,
+      "assets": 34631,
+      "equity": 14877,
+      "dilutedEps": 1.73,
+      "basicEps": 1.75,
+      "grossMargin": 0.64773,
+      "operatingMargin": 0.54967,
+      "netMargin": 0.14082,
+      "returnOnEquity": 0.0445
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 5202,
+      "grossIncome": 3236,
+      "operatingIncome": 2841,
+      "netProfit": 563,
+      "assets": 36884,
+      "equity": 16616,
+      "dilutedEps": 1.47,
+      "basicEps": 1.48,
+      "grossMargin": 0.62207,
+      "operatingMargin": 0.54614,
+      "netMargin": 0.10823,
+      "returnOnEquity": 0.03388
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 5815,
+      "grossIncome": 3703,
+      "operatingIncome": 3888,
+      "netProfit": 1143,
+      "assets": 39912,
+      "equity": 18593,
+      "dilutedEps": 2.98,
+      "basicEps": 3.01,
+      "grossMargin": 0.6368,
+      "operatingMargin": 0.66862,
+      "netMargin": 0.19656,
+      "returnOnEquity": 0.06147
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 6436,
+      "grossIncome": 4174,
+      "operatingIncome": 3689,
+      "netProfit": 546,
+      "assets": 42971,
+      "equity": 20634,
+      "dilutedEps": 1.41,
+      "basicEps": 1.43,
+      "grossMargin": 0.64854,
+      "operatingMargin": 0.57318,
+      "netMargin": 0.08484,
+      "returnOnEquity": 0.02646
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 7171,
+      "grossIncome": 4628,
+      "operatingIncome": 4889,
+      "netProfit": 849,
+      "assets": 47844,
+      "equity": 22420,
+      "dilutedEps": 2.2,
+      "basicEps": 2.21,
+      "grossMargin": 0.64538,
+      "operatingMargin": 0.68177,
+      "netMargin": 0.11839,
+      "returnOnEquity": 0.03787
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "CI",
+   "name": "سيغنا",
+   "fullName": "سيغنا (CI) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 174069,
+      "grossIncome": null,
+      "operatingIncome": 7941,
+      "netProfit": 5420,
+      "assets": 154889,
+      "equity": 46976,
+      "dilutedEps": 15.75,
+      "basicEps": 15.89,
+      "operatingMargin": 0.04562,
+      "netMargin": 0.03114,
+      "returnOnEquity": 0.11538
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 180518,
+      "grossIncome": null,
+      "operatingIncome": 8450,
+      "netProfit": 6782,
+      "assets": 143885,
+      "equity": 44688,
+      "dilutedEps": 21.41,
+      "basicEps": 21.66,
+      "operatingMargin": 0.04681,
+      "netMargin": 0.03757,
+      "returnOnEquity": 0.15176
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 195265,
+      "grossIncome": null,
+      "operatingIncome": 8536,
+      "netProfit": 5372,
+      "assets": 152761,
+      "equity": 46244,
+      "dilutedEps": 17.39,
+      "basicEps": 17.57,
+      "operatingMargin": 0.04371,
+      "netMargin": 0.02751,
+      "returnOnEquity": 0.11617
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 247121,
+      "grossIncome": null,
+      "operatingIncome": 9417,
+      "netProfit": 3778,
+      "assets": 155881,
+      "equity": 41243,
+      "dilutedEps": 12.12,
+      "basicEps": 12.25,
+      "operatingMargin": 0.03811,
+      "netMargin": 0.01529,
+      "returnOnEquity": 0.0916
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 274900,
+      "grossIncome": null,
+      "operatingIncome": 9200,
+      "netProfit": 6288,
+      "assets": 157919,
+      "equity": 41874,
+      "dilutedEps": 22.18,
+      "basicEps": 22.33,
+      "operatingMargin": 0.03347,
+      "netMargin": 0.02287,
+      "returnOnEquity": 0.15016
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "PFE",
+   "name": "فايزر",
+   "fullName": "فايزر (PFE) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 73636,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 22025,
+      "assets": 181476,
+      "equity": 77462,
+      "dilutedEps": 3.85,
+      "basicEps": 3.92,
+      "netMargin": 0.29911,
+      "returnOnEquity": 0.28433
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 91793,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 31407,
+      "assets": 197205,
+      "equity": 95916,
+      "dilutedEps": 5.47,
+      "basicEps": 5.59,
+      "netMargin": 0.34215,
+      "returnOnEquity": 0.32744
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 50914,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 2158,
+      "assets": 226501,
+      "equity": 89288,
+      "dilutedEps": 0.37,
+      "basicEps": 0.38,
+      "netMargin": 0.04239,
+      "returnOnEquity": 0.02417
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 63627,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 8062,
+      "assets": 213396,
+      "equity": 88497,
+      "dilutedEps": 1.41,
+      "basicEps": 1.42,
+      "netMargin": 0.12671,
+      "returnOnEquity": 0.0911
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 62579,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 7812,
+      "assets": 208160,
+      "equity": 86775,
+      "dilutedEps": 1.36,
+      "basicEps": 1.37,
+      "netMargin": 0.12483,
+      "returnOnEquity": 0.09003
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "VRTX",
+   "name": "فيرتكس فارماسيوتيكالز",
+   "fullName": "فيرتكس فارماسيوتيكالز (VRTX) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 7574.4,
+      "grossIncome": null,
+      "operatingIncome": 2782.1,
+      "netProfit": 2342.1,
+      "assets": 13432.5,
+      "equity": 10100,
+      "dilutedEps": 9.01,
+      "basicEps": 9.09,
+      "operatingMargin": 0.3673,
+      "netMargin": 0.30921,
+      "returnOnEquity": 0.23189
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 8930.7,
+      "grossIncome": null,
+      "operatingIncome": 4307.4,
+      "netProfit": 3322,
+      "assets": 18150.9,
+      "equity": 13912.7,
+      "dilutedEps": 12.82,
+      "basicEps": 12.97,
+      "operatingMargin": 0.48231,
+      "netMargin": 0.37198,
+      "returnOnEquity": 0.23877
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 9869.2,
+      "grossIncome": null,
+      "operatingIncome": 3832,
+      "netProfit": 3619.6,
+      "assets": 22730.2,
+      "equity": 17580.4,
+      "dilutedEps": 13.89,
+      "basicEps": 14.05,
+      "operatingMargin": 0.38828,
+      "netMargin": 0.36676,
+      "returnOnEquity": 0.20589
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 11020.1,
+      "grossIncome": null,
+      "operatingIncome": -232.9,
+      "netProfit": -535.6,
+      "assets": 22533.2,
+      "equity": 16409.6,
+      "dilutedEps": -2.08,
+      "basicEps": -2.08,
+      "operatingMargin": -0.02113,
+      "netMargin": -0.0486,
+      "returnOnEquity": -0.03264
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 12001.3,
+      "grossIncome": null,
+      "operatingIncome": 4173.3,
+      "netProfit": 3953.2,
+      "assets": 25643,
+      "equity": 18665.8,
+      "dilutedEps": 15.32,
+      "basicEps": 15.46,
+      "operatingMargin": 0.34774,
+      "netMargin": 0.3294,
+      "returnOnEquity": 0.21179
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "MRNA",
+   "name": "مودرنا",
+   "fullName": "مودرنا (MRNA) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 18471,
+      "grossIncome": null,
+      "operatingIncome": 13296,
+      "netProfit": 12202,
+      "assets": 24669,
+      "equity": 14145,
+      "dilutedEps": 28.29,
+      "basicEps": 30.31,
+      "operatingMargin": 0.71983,
+      "netMargin": 0.6606,
+      "returnOnEquity": 0.86264
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 19263,
+      "grossIncome": null,
+      "operatingIncome": 9420,
+      "netProfit": 8362,
+      "assets": 25858,
+      "equity": 19123,
+      "dilutedEps": 20.12,
+      "basicEps": 21.26,
+      "operatingMargin": 0.48902,
+      "netMargin": 0.4341,
+      "returnOnEquity": 0.43727
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 6848,
+      "grossIncome": null,
+      "operatingIncome": -4239,
+      "netProfit": -4714,
+      "assets": 18426,
+      "equity": 13854,
+      "dilutedEps": -12.33,
+      "basicEps": -12.33,
+      "operatingMargin": -0.61901,
+      "netMargin": -0.68838,
+      "returnOnEquity": -0.34026
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 3236,
+      "grossIncome": null,
+      "operatingIncome": -3945,
+      "netProfit": -3561,
+      "assets": 14142,
+      "equity": 10901,
+      "dilutedEps": -9.28,
+      "basicEps": -9.28,
+      "operatingMargin": -1.2191,
+      "netMargin": -1.10043,
+      "returnOnEquity": -0.32667
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 1944,
+      "grossIncome": null,
+      "operatingIncome": -3074,
+      "netProfit": -2822,
+      "assets": 12338,
+      "equity": 8650,
+      "dilutedEps": -7.26,
+      "basicEps": -7.26,
+      "operatingMargin": -1.58128,
+      "netMargin": -1.45165,
+      "returnOnEquity": -0.32624
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "MDT",
+   "name": "ميديترونيك",
+   "fullName": "ميديترونيك (MDT) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 31686,
+      "grossIncome": null,
+      "operatingIncome": 5752,
+      "netProfit": 5062,
+      "assets": 90981,
+      "equity": 52722,
+      "dilutedEps": 3.73,
+      "basicEps": 3.75,
+      "operatingMargin": 0.18153,
+      "netMargin": 0.15976,
+      "returnOnEquity": 0.09601
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 31227,
+      "grossIncome": null,
+      "operatingIncome": 5485,
+      "netProfit": 3784,
+      "assets": 90948,
+      "equity": 51665,
+      "dilutedEps": 2.82,
+      "basicEps": 2.83,
+      "operatingMargin": 0.17565,
+      "netMargin": 0.12118,
+      "returnOnEquity": 0.07324
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 32364,
+      "grossIncome": null,
+      "operatingIncome": 5144,
+      "netProfit": 3705,
+      "assets": 89981,
+      "equity": 50420,
+      "dilutedEps": 2.76,
+      "basicEps": 2.77,
+      "operatingMargin": 0.15894,
+      "netMargin": 0.11448,
+      "returnOnEquity": 0.07348
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 33537,
+      "grossIncome": null,
+      "operatingIncome": 5955,
+      "netProfit": 4691,
+      "assets": 91680,
+      "equity": 48256,
+      "dilutedEps": 3.61,
+      "basicEps": 3.63,
+      "operatingMargin": 0.17757,
+      "netMargin": 0.13988,
+      "returnOnEquity": 0.09721
+     }
+    },
+    {
+     "year": 2026,
+     "period": "FY",
+     "values": {
+      "revenue": 36364,
+      "grossIncome": null,
+      "operatingIncome": 6467,
+      "netProfit": 4837,
+      "assets": 93028,
+      "equity": 50072,
+      "dilutedEps": 3.73,
+      "basicEps": 3.75,
+      "operatingMargin": 0.17784,
+      "netMargin": 0.13302,
+      "returnOnEquity": 0.0966
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "MRK",
+   "name": "ميرك",
+   "fullName": "ميرك (MRK) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 48704,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 13049,
+      "assets": 105694,
+      "equity": 38257,
+      "dilutedEps": 5.14,
+      "basicEps": 5.16,
+      "netMargin": 0.26792,
+      "returnOnEquity": 0.34109
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 59283,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 14526,
+      "assets": 109160,
+      "equity": 46058,
+      "dilutedEps": 5.71,
+      "basicEps": 5.73,
+      "netMargin": 0.24503,
+      "returnOnEquity": 0.31538
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 60115,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 377,
+      "assets": 106675,
+      "equity": 37635,
+      "dilutedEps": 0.14,
+      "basicEps": 0.14,
+      "netMargin": 0.00627,
+      "returnOnEquity": 0.01002
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 64168,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 17133,
+      "assets": 117106,
+      "equity": 46372,
+      "dilutedEps": 6.74,
+      "basicEps": 6.76,
+      "netMargin": 0.267,
+      "returnOnEquity": 0.36947
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 65011,
+      "grossIncome": null,
+      "operatingIncome": null,
+      "netProfit": 18263,
+      "assets": 136866,
+      "equity": 52662,
+      "dilutedEps": 7.28,
+      "basicEps": 7.3,
+      "netMargin": 0.28092,
+      "returnOnEquity": 0.3468
+     }
+    }
+   ]
+  },
+  {
+   "symbol": "UNH",
+   "name": "يونايتد هيلث",
+   "fullName": "يونايتد هيلث (UNH) — الأرقام بالمليون دولار، وربح السهم بالدولار",
+   "years": [
+    {
+     "year": 2021,
+     "period": "FY",
+     "values": {
+      "revenue": 287597,
+      "grossIncome": null,
+      "operatingIncome": 23970,
+      "netProfit": 17732,
+      "assets": 212206,
+      "equity": 75045,
+      "dilutedEps": 18.08,
+      "basicEps": 18.33,
+      "operatingMargin": 0.08335,
+      "netMargin": 0.06166,
+      "returnOnEquity": 0.23628
+     }
+    },
+    {
+     "year": 2022,
+     "period": "FY",
+     "values": {
+      "revenue": 324162,
+      "grossIncome": null,
+      "operatingIncome": 28435,
+      "netProfit": 20639,
+      "assets": 245705,
+      "equity": 81450,
+      "dilutedEps": 21.18,
+      "basicEps": 21.47,
+      "operatingMargin": 0.08772,
+      "netMargin": 0.06367,
+      "returnOnEquity": 0.25339
+     }
+    },
+    {
+     "year": 2023,
+     "period": "FY",
+     "values": {
+      "revenue": 371622,
+      "grossIncome": null,
+      "operatingIncome": 32358,
+      "netProfit": 23144,
+      "assets": 273720,
+      "equity": 94421,
+      "dilutedEps": 23.86,
+      "basicEps": 24.12,
+      "operatingMargin": 0.08707,
+      "netMargin": 0.06228,
+      "returnOnEquity": 0.24511
+     }
+    },
+    {
+     "year": 2024,
+     "period": "FY",
+     "values": {
+      "revenue": 400278,
+      "grossIncome": null,
+      "operatingIncome": 32287,
+      "netProfit": 15242,
+      "assets": 298278,
+      "equity": 98268,
+      "dilutedEps": 15.51,
+      "basicEps": 15.64,
+      "operatingMargin": 0.08066,
+      "netMargin": 0.03808,
+      "returnOnEquity": 0.15511
+     }
+    },
+    {
+     "year": 2025,
+     "period": "FY",
+     "values": {
+      "revenue": 447567,
+      "grossIncome": null,
+      "operatingIncome": 18964,
+      "netProfit": 12807,
+      "assets": 309581,
+      "equity": 100090,
+      "dilutedEps": 13.23,
+      "basicEps": 13.28,
+      "operatingMargin": 0.04237,
+      "netMargin": 0.02861,
+      "returnOnEquity": 0.12795
+     }
+    }
+   ]
+  }
+ ]
 }

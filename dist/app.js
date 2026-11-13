@@ -239,6 +239,11 @@ function render(){
   }).join('');
 }
 function updateStatus(message){$('financial-status').textContent=message;}
+function paintFinancialStatus(){
+  if(!data)return;
+  const updated=allStocks().filter(s=>s._hasCurrentEps).length;
+  updateStatus(`ربحية ${updated} سهمًا من SEC EDGAR (ملفات الشركات الرسمية)؛ ${allStocks().length-updated} سهمًا تعرض قيمة TradingView.`);
+}
 function updateMode(mode){
   epsMode=mode;
   $('recurring-mode').classList.toggle('selected',mode==='diluted');
@@ -461,7 +466,7 @@ async function refreshPrices(){
       catch(error){ priceRefreshError='تعذر تحديث السعر المباشر؛ احتُفظ بلقطة المصدر المنشورة.'; }
     }
     if(initial)$('empty').querySelector('h3').textContent='لا توجد نتائج مطابقة';
-    paintSnapshot();paintMarketSummary();applyFinancials();
+    paintSnapshot();paintMarketSummary();applyFinancials();paintFinancialStatus();
     return true;
   }catch(error){
     priceRefreshError=data?'تعذر تحديث الأسعار؛ احتُفظ بالقيم المعروضة وستُعاد المحاولة تلقائيًا.':'تعذر تحميل الأسعار؛ ستُعاد المحاولة تلقائيًا.';
@@ -477,10 +482,11 @@ async function loadFinancialMap(){
     const map=await response.json();
     if(!map||typeof map!=='object')throw Error('invalid map');
     financialMap=map;
-    for(const [symbol,record] of Object.entries(map.snapshot||{}))if(periodValid(record.period))financials.set(symbol,record);
-    if(data)applyFinancials();
-    const updated=allStocks().filter(s=>s._hasCurrentEps).length;
-    updateStatus(`ربحية ${updated} سهمًا من SEC EDGAR (ملفات الشركات الرسمية)؛ ${allStocks().length-updated} سهمًا تعرض قيمة TradingView.`);
+    for(const [symbol,record] of Object.entries(map.snapshot||{}))if(periodValid(record.period)||/^\d{4}$/.test(String(record.period||'')))financials.set(symbol,record);
+    if(data){
+      applyFinancials();
+      paintFinancialStatus();
+    }
   }catch(error){updateStatus('تعذر تحميل بيانات الأرباح المحدثة؛ تُعرض القيم المتاحة في ملف الأسعار.');}
 }
 
