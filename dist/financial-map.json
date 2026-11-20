@@ -870,13 +870,6 @@
    "period": "2026-11-20",
    "dateKind": "checked"
   },
-  "MFC": {
-   "symbol": "MFC",
-   "reported": 2.462,
-   "book": null,
-   "period": "2026-11-20",
-   "dateKind": "checked"
-  },
   "LLY": {
    "symbol": "LLY",
    "reported": 30.475,
@@ -1185,16 +1178,16 @@
    "period": "2026-11-20",
    "dateKind": "checked"
   },
-  "JCI": {
-   "symbol": "JCI",
-   "reported": 4.692,
+  "ITW": {
+   "symbol": "ITW",
+   "reported": 11.243,
    "book": null,
    "period": "2026-11-20",
    "dateKind": "checked"
   },
-  "ITW": {
-   "symbol": "ITW",
-   "reported": 11.243,
+  "JCI": {
+   "symbol": "JCI",
+   "reported": 4.692,
    "book": null,
    "period": "2026-11-20",
    "dateKind": "checked"
@@ -1244,6 +1237,13 @@
   "HON": {
    "symbol": "HON",
    "reported": 23.526,
+   "book": null,
+   "period": "2026-11-20",
+   "dateKind": "checked"
+  },
+  "KMI": {
+   "symbol": "KMI",
+   "reported": 1.611,
    "book": null,
    "period": "2026-11-20",
    "dateKind": "checked"
