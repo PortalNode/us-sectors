@@ -114,13 +114,6 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "TXN": {
-   "symbol": "TXN",
-   "reported": 7.761,
-   "book": null,
-   "period": "2026-11-24",
-   "dateKind": "checked"
-  },
   "RTX": {
    "symbol": "RTX",
    "reported": 6.227,
@@ -135,9 +128,9 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "ANET": {
-   "symbol": "ANET",
-   "reported": 3.772,
+  "TXN": {
+   "symbol": "TXN",
+   "reported": 7.761,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -156,9 +149,9 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "DELL": {
-   "symbol": "DELL",
-   "reported": 17.477,
+  "ANET": {
+   "symbol": "ANET",
+   "reported": 3.772,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -170,6 +163,13 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
+  "DELL": {
+   "symbol": "DELL",
+   "reported": 17.477,
+   "book": null,
+   "period": "2026-11-24",
+   "dateKind": "checked"
+  },
   "APH": {
    "symbol": "APH",
    "reported": 2.411,
@@ -177,16 +177,9 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "KLAC": {
-   "symbol": "KLAC",
-   "reported": 4.02,
-   "book": null,
-   "period": "2026-11-24",
-   "dateKind": "checked"
-  },
-  "ADI": {
-   "symbol": "ADI",
-   "reported": 8.474,
+  "TMUS": {
+   "symbol": "TMUS",
+   "reported": 10.383,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -198,9 +191,9 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "TMUS": {
-   "symbol": "TMUS",
-   "reported": 10.383,
+  "KLAC": {
+   "symbol": "KLAC",
+   "reported": 4.02,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -219,9 +212,9 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "LMT": {
-   "symbol": "LMT",
-   "reported": 28.273,
+  "ADI": {
+   "symbol": "ADI",
+   "reported": 8.474,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -233,16 +226,16 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "BA": {
-   "symbol": "BA",
-   "reported": 9.324,
+  "LMT": {
+   "symbol": "LMT",
+   "reported": 28.273,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "MRVL": {
-   "symbol": "MRVL",
-   "reported": 3.071,
+  "BA": {
+   "symbol": "BA",
+   "reported": 9.324,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -261,16 +254,23 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "STX": {
-   "symbol": "STX",
-   "reported": 19.605,
+  "ADP": {
+   "symbol": "ADP",
+   "reported": 11.307,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "ADP": {
-   "symbol": "ADP",
-   "reported": 11.307,
+  "MRVL": {
+   "symbol": "MRVL",
+   "reported": 3.071,
+   "book": null,
+   "period": "2026-11-24",
+   "dateKind": "checked"
+  },
+  "STX": {
+   "symbol": "STX",
+   "reported": 19.605,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -285,13 +285,6 @@
   "NET": {
    "symbol": "NET",
    "reported": -0.674,
-   "book": null,
-   "period": "2026-11-24",
-   "dateKind": "checked"
-  },
-  "SNDK": {
-   "symbol": "SNDK",
-   "reported": 16.542,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -324,6 +317,20 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
+  "ADBE": {
+   "symbol": "ADBE",
+   "reported": 17.942,
+   "book": null,
+   "period": "2026-11-24",
+   "dateKind": "checked"
+  },
+  "SNDK": {
+   "symbol": "SNDK",
+   "reported": 16.542,
+   "book": null,
+   "period": "2026-11-24",
+   "dateKind": "checked"
+  },
   "GLW": {
    "symbol": "GLW",
    "reported": 2.5,
@@ -334,13 +341,6 @@
   "MSI": {
    "symbol": "MSI",
    "reported": 12.566,
-   "book": null,
-   "period": "2026-11-24",
-   "dateKind": "checked"
-  },
-  "ADBE": {
-   "symbol": "ADBE",
-   "reported": 17.942,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -383,13 +383,6 @@
   "INTU": {
    "symbol": "INTU",
    "reported": 17.532,
-   "book": null,
-   "period": "2026-11-24",
-   "dateKind": "checked"
-  },
-  "VRT": {
-   "symbol": "VRT",
-   "reported": 5.464,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -478,6 +471,13 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
+  "MCK": {
+   "symbol": "MCK",
+   "reported": 39.048,
+   "book": null,
+   "period": "2026-11-24",
+   "dateKind": "checked"
+  },
   "MO": {
    "symbol": "MO",
    "reported": 4.845,
@@ -488,13 +488,6 @@
   "SBUX": {
    "symbol": "SBUX",
    "reported": 2.217,
-   "book": null,
-   "period": "2026-11-24",
-   "dateKind": "checked"
-  },
-  "MCK": {
-   "symbol": "MCK",
-   "reported": 39.048,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -513,16 +506,16 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "ABNB": {
-   "symbol": "ABNB",
-   "reported": 5.419,
+  "CVS": {
+   "symbol": "CVS",
+   "reported": 8.653,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "CVS": {
-   "symbol": "CVS",
-   "reported": 8.653,
+  "ABNB": {
+   "symbol": "ABNB",
+   "reported": 5.419,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -541,6 +534,13 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
+  "RCL": {
+   "symbol": "RCL",
+   "reported": 16.948,
+   "book": null,
+   "period": "2026-11-24",
+   "dateKind": "checked"
+  },
   "MDLZ": {
    "symbol": "MDLZ",
    "reported": 3.181,
@@ -555,23 +555,9 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "RCL": {
-   "symbol": "RCL",
-   "reported": 16.948,
-   "book": null,
-   "period": "2026-11-24",
-   "dateKind": "checked"
-  },
   "HLT": {
    "symbol": "HLT",
    "reported": 7.478,
-   "book": null,
-   "period": "2026-11-24",
-   "dateKind": "checked"
-  },
-  "CL": {
-   "symbol": "CL",
-   "reported": 2.568,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -583,9 +569,23 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
+  "CL": {
+   "symbol": "CL",
+   "reported": 2.568,
+   "book": null,
+   "period": "2026-11-24",
+   "dateKind": "checked"
+  },
   "ORLY": {
    "symbol": "ORLY",
    "reported": 3.275,
+   "book": null,
+   "period": "2026-11-24",
+   "dateKind": "checked"
+  },
+  "MELI": {
+   "symbol": "MELI",
+   "reported": 37.28,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -597,9 +597,9 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "MELI": {
-   "symbol": "MELI",
-   "reported": 37.28,
+  "ROST": {
+   "symbol": "ROST",
+   "reported": 8.654,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -772,16 +772,16 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "EQIX": {
-   "symbol": "EQIX",
-   "reported": 16.722,
+  "MRSH": {
+   "symbol": "MRSH",
+   "reported": 8.389,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "MRSH": {
-   "symbol": "MRSH",
-   "reported": 8.389,
+  "ICE": {
+   "symbol": "ICE",
+   "reported": 7.359,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -793,9 +793,9 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "ICE": {
-   "symbol": "ICE",
-   "reported": 7.359,
+  "EQIX": {
+   "symbol": "EQIX",
+   "reported": 16.722,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -877,6 +877,13 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
+  "APO": {
+   "symbol": "APO",
+   "reported": -1.806,
+   "book": null,
+   "period": "2026-11-24",
+   "dateKind": "checked"
+  },
   "LLY": {
    "symbol": "LLY",
    "reported": 30.475,
@@ -947,16 +954,16 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "DHR": {
-   "symbol": "DHR",
-   "reported": 6.134,
+  "PFE": {
+   "symbol": "PFE",
+   "reported": 0.708,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "PFE": {
-   "symbol": "PFE",
-   "reported": 0.708,
+  "DHR": {
+   "symbol": "DHR",
+   "reported": 6.134,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -975,13 +982,6 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "MDT": {
-   "symbol": "MDT",
-   "reported": 4.082,
-   "book": null,
-   "period": "2026-11-24",
-   "dateKind": "checked"
-  },
   "BMY": {
    "symbol": "BMY",
    "reported": 4.53,
@@ -996,9 +996,9 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "HCA": {
-   "symbol": "HCA",
-   "reported": 30.529,
+  "MDT": {
+   "symbol": "MDT",
+   "reported": 4.082,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -1006,6 +1006,13 @@
   "REGN": {
    "symbol": "REGN",
    "reported": 46.977,
+   "book": null,
+   "period": "2026-11-24",
+   "dateKind": "checked"
+  },
+  "HCA": {
+   "symbol": "HCA",
+   "reported": 30.529,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -1038,16 +1045,16 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "LRCX": {
-   "symbol": "LRCX",
-   "reported": 6.752,
+  "CAT": {
+   "symbol": "CAT",
+   "reported": 25.613,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "CAT": {
-   "symbol": "CAT",
-   "reported": 25.613,
+  "LRCX": {
+   "symbol": "LRCX",
+   "reported": 6.752,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -1059,16 +1066,16 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "SHOP": {
-   "symbol": "SHOP",
-   "reported": 1.609,
+  "UNP": {
+   "symbol": "UNP",
+   "reported": 12.843,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "UNP": {
-   "symbol": "UNP",
-   "reported": 12.843,
+  "SHOP": {
+   "symbol": "SHOP",
+   "reported": 1.609,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -1080,16 +1087,16 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "SPGI": {
-   "symbol": "SPGI",
-   "reported": 16.825,
+  "UBER": {
+   "symbol": "UBER",
+   "reported": 1.698,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "UBER": {
-   "symbol": "UBER",
-   "reported": 1.698,
+  "SPGI": {
+   "symbol": "SPGI",
+   "reported": 16.825,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -1143,6 +1150,13 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
+  "CTAS": {
+   "symbol": "CTAS",
+   "reported": 5.13,
+   "book": null,
+   "period": "2026-11-24",
+   "dateKind": "checked"
+  },
   "PWR": {
    "symbol": "PWR",
    "reported": 11.206,
@@ -1157,23 +1171,9 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "CTAS": {
-   "symbol": "CTAS",
-   "reported": 5.13,
-   "book": null,
-   "period": "2026-11-24",
-   "dateKind": "checked"
-  },
   "MCO": {
    "symbol": "MCO",
    "reported": 16.458,
-   "book": null,
-   "period": "2026-11-24",
-   "dateKind": "checked"
-  },
-  "JCI": {
-   "symbol": "JCI",
-   "reported": 4.692,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -1185,9 +1185,9 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "ITW": {
-   "symbol": "ITW",
-   "reported": 11.243,
+  "JCI": {
+   "symbol": "JCI",
+   "reported": 4.692,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -1195,6 +1195,13 @@
   "CP": {
    "symbol": "CP",
    "reported": 3.051,
+   "book": null,
+   "period": "2026-11-24",
+   "dateKind": "checked"
+  },
+  "ITW": {
+   "symbol": "ITW",
+   "reported": 11.243,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -1290,16 +1297,16 @@
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "VLO": {
-   "symbol": "VLO",
-   "reported": 44.465,
+  "CNQ": {
+   "symbol": "CNQ",
+   "reported": 4.787,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
   },
-  "CNQ": {
-   "symbol": "CNQ",
-   "reported": 4.787,
+  "VLO": {
+   "symbol": "VLO",
+   "reported": 44.465,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
@@ -1356,13 +1363,6 @@
   "AEM": {
    "symbol": "AEM",
    "reported": 11.972,
-   "book": null,
-   "period": "2026-11-24",
-   "dateKind": "checked"
-  },
-  "FCX": {
-   "symbol": "FCX",
-   "reported": 2.38,
    "book": null,
    "period": "2026-11-24",
    "dateKind": "checked"
