@@ -604,9 +604,9 @@
    "period": "2026-11-26",
    "dateKind": "checked"
   },
-  "BRK.A": {
-   "symbol": "BRK.A",
-   "reported": 53747.055,
+  "BRK.B": {
+   "symbol": "BRK.B",
+   "reported": 35.831,
    "book": null,
    "period": "2026-11-26",
    "dateKind": "checked"
