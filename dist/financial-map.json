@@ -23,8 +23,8 @@
    "period": "2026-11-26",
    "dateKind": "checked"
   },
-  "GOOGL": {
-   "symbol": "GOOGL",
+  "GOOG": {
+   "symbol": "GOOG",
    "reported": 19.387,
    "book": null,
    "period": "2026-11-26",
@@ -466,7 +466,7 @@
   },
   "LOW": {
    "symbol": "LOW",
-   "reported": 11.95,
+   "reported": 11.941,
    "book": null,
    "period": "2026-11-26",
    "dateKind": "checked"
@@ -604,9 +604,9 @@
    "period": "2026-11-26",
    "dateKind": "checked"
   },
-  "BRK.B": {
-   "symbol": "BRK.B",
-   "reported": 35.831,
+  "BRK.A": {
+   "symbol": "BRK.A",
+   "reported": 53747.055,
    "book": null,
    "period": "2026-11-26",
    "dateKind": "checked"
