@@ -6,1393 +6,1393 @@
    "symbol": "AAPL",
    "reported": 9.011,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MSFT": {
    "symbol": "MSFT",
    "reported": 19.203,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "NVDA": {
    "symbol": "NVDA",
    "reported": 9.345,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "GOOG": {
    "symbol": "GOOG",
    "reported": 19.387,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "SPCX": {
    "symbol": "SPCX",
    "reported": null,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "META": {
    "symbol": "META",
    "reported": 29.678,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "AVGO": {
    "symbol": "AVGO",
    "reported": 8.057,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ANT": {
    "symbol": "ANT",
    "reported": -9.145,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MU": {
    "symbol": "MU",
    "reported": 75.302,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "AMD": {
    "symbol": "AMD",
    "reported": 4.667,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "PLTR": {
    "symbol": "PLTR",
    "reported": 1.53,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CSCO": {
    "symbol": "CSCO",
    "reported": 3.787,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "GE": {
    "symbol": "GE",
    "reported": 8.718,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ORCL": {
    "symbol": "ORCL",
    "reported": 6.474,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "INTC": {
    "symbol": "INTC",
    "reported": -2.384,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "PANW": {
    "symbol": "PANW",
    "reported": 0.636,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "RTX": {
    "symbol": "RTX",
    "reported": 6.227,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "TXN": {
    "symbol": "TXN",
    "reported": 7.761,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "NFLX": {
    "symbol": "NFLX",
    "reported": 3.521,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "IBM": {
    "symbol": "IBM",
    "reported": 11.895,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CRWD": {
    "symbol": "CRWD",
    "reported": 0.095,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ANET": {
    "symbol": "ANET",
    "reported": 3.772,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "DELL": {
    "symbol": "DELL",
    "reported": 24.104,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "VZ": {
    "symbol": "VZ",
    "reported": 3.924,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "QCOM": {
    "symbol": "QCOM",
    "reported": 12.793,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "APH": {
    "symbol": "APH",
    "reported": 2.411,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "KLAC": {
    "symbol": "KLAC",
    "reported": 4.02,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "TMUS": {
    "symbol": "TMUS",
    "reported": 10.383,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ADI": {
    "symbol": "ADI",
    "reported": 10.282,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CRM": {
    "symbol": "CRM",
    "reported": 11.006,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "T": {
    "symbol": "T",
    "reported": 1.856,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ACN": {
    "symbol": "ACN",
    "reported": 13.66,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "LMT": {
    "symbol": "LMT",
    "reported": 28.273,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "BA": {
    "symbol": "BA",
    "reported": 9.324,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "APP": {
    "symbol": "APP",
    "reported": 14.917,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "SPOT": {
    "symbol": "SPOT",
    "reported": 16.717,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ADP": {
    "symbol": "ADP",
    "reported": 11.307,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MRVL": {
    "symbol": "MRVL",
    "reported": 3.071,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "STX": {
    "symbol": "STX",
    "reported": 19.605,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "WDC": {
    "symbol": "WDC",
    "reported": 28.482,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "NET": {
    "symbol": "NET",
    "reported": -0.674,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "FTNT": {
    "symbol": "FTNT",
    "reported": 3.097,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "GD": {
    "symbol": "GD",
    "reported": 17.241,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "SNOW": {
    "symbol": "SNOW",
    "reported": -3.175,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "SNDK": {
    "symbol": "SNDK",
    "reported": 16.542,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "NOW": {
    "symbol": "NOW",
    "reported": 1.396,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ADBE": {
    "symbol": "ADBE",
    "reported": 17.942,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "GLW": {
    "symbol": "GLW",
    "reported": 2.5,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MSI": {
    "symbol": "MSI",
    "reported": 12.566,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "EMR": {
    "symbol": "EMR",
    "reported": 4.799,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "HWM": {
    "symbol": "HWM",
    "reported": 5.131,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CDNS": {
    "symbol": "CDNS",
    "reported": 5.065,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "SNPS": {
    "symbol": "SNPS",
    "reported": 5.697,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "NOC": {
    "symbol": "NOC",
    "reported": 31.816,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "AMZN": {
    "symbol": "AMZN",
    "reported": 12.528,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "TSLA": {
    "symbol": "TSLA",
    "reported": 0.995,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "WMT": {
    "symbol": "WMT",
    "reported": 2.624,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "COST": {
    "symbol": "COST",
    "reported": 20.782,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "KO": {
    "symbol": "KO",
    "reported": 3.4,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "PG": {
    "symbol": "PG",
    "reported": 6.757,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "HD": {
    "symbol": "HD",
    "reported": 14.424,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "PM": {
    "symbol": "PM",
    "reported": 6.854,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "DIS": {
    "symbol": "DIS",
    "reported": 5.649,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MCD": {
    "symbol": "MCD",
    "reported": 12.682,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "PEP": {
    "symbol": "PEP",
    "reported": 7.977,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "LOW": {
    "symbol": "LOW",
    "reported": 11.941,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MO": {
    "symbol": "MO",
    "reported": 4.845,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MCK": {
    "symbol": "MCK",
    "reported": 39.048,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "SBUX": {
    "symbol": "SBUX",
    "reported": 2.217,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "BKNG": {
    "symbol": "BKNG",
    "reported": 9.312,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MAR": {
    "symbol": "MAR",
    "reported": 10.042,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ABNB": {
    "symbol": "ABNB",
    "reported": 5.419,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CVS": {
    "symbol": "CVS",
    "reported": 8.653,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CMCSA": {
    "symbol": "CMCSA",
    "reported": 3.165,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "RACE": {
    "symbol": "RACE",
    "reported": 10.8,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MDLZ": {
    "symbol": "MDLZ",
    "reported": 3.181,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "RCL": {
    "symbol": "RCL",
    "reported": 16.948,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MNST": {
    "symbol": "MNST",
    "reported": 1.11,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "HLT": {
    "symbol": "HLT",
    "reported": 7.478,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CL": {
    "symbol": "CL",
    "reported": 2.568,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "TGT": {
    "symbol": "TGT",
    "reported": 10.828,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MELI": {
    "symbol": "MELI",
    "reported": 37.28,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CVNA": {
    "symbol": "CVNA",
    "reported": 2.392,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ORLY": {
    "symbol": "ORLY",
    "reported": 3.275,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "GM": {
    "symbol": "GM",
    "reported": 4.496,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "BRK.B": {
    "symbol": "BRK.B",
    "reported": 35.831,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "JPM": {
    "symbol": "JPM",
    "reported": 23.875,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "V": {
    "symbol": "V",
    "reported": 12.344,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MA": {
    "symbol": "MA",
    "reported": 19.147,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "BAC": {
    "symbol": "BAC",
    "reported": 4.268,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MS": {
    "symbol": "MS",
    "reported": 12.751,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "RY": {
    "symbol": "RY",
    "reported": 11.333,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "WFC": {
    "symbol": "WFC",
    "reported": 7.18,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "GS": {
    "symbol": "GS",
    "reported": 70.672,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "AXP": {
    "symbol": "AXP",
    "reported": 17.784,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "TD": {
    "symbol": "TD",
    "reported": 6.665,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "C": {
    "symbol": "C",
    "reported": 10.433,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "BLK": {
    "symbol": "BLK",
    "reported": 44.562,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "WELL": {
    "symbol": "WELL",
    "reported": -0.541,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "SCHW": {
    "symbol": "SCHW",
    "reported": 5.881,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "BX": {
    "symbol": "BX",
    "reported": 4.489,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CB": {
    "symbol": "CB",
    "reported": 28.78,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "UBS": {
    "symbol": "UBS",
    "reported": 3.008,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "PGR": {
    "symbol": "PGR",
    "reported": 19.903,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "IBKR": {
    "symbol": "IBKR",
    "reported": 2.628,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "PLD": {
    "symbol": "PLD",
    "reported": 4.558,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CME": {
    "symbol": "CME",
    "reported": 12.283,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "COF": {
    "symbol": "COF",
    "reported": 16.952,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "BMO": {
    "symbol": "BMO",
    "reported": 8.771,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MRSH": {
    "symbol": "MRSH",
    "reported": 8.389,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "BNY": {
    "symbol": "BNY",
    "reported": 9.144,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ICE": {
    "symbol": "ICE",
    "reported": 7.359,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "EQIX": {
    "symbol": "EQIX",
    "reported": 16.722,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CM": {
    "symbol": "CM",
    "reported": 7.479,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "USB": {
    "symbol": "USB",
    "reported": 5.143,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "BN": {
    "symbol": "BN",
    "reported": 1.027,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "PNC": {
    "symbol": "PNC",
    "reported": 18.803,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "AMT": {
    "symbol": "AMT",
    "reported": 7.106,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "BAM": {
    "symbol": "BAM",
    "reported": 2.889,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "KKR": {
    "symbol": "KKR",
    "reported": 3.636,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "TRV": {
    "symbol": "TRV",
    "reported": 38.759,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "SPG": {
    "symbol": "SPG",
    "reported": 5.363,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "AJG": {
    "symbol": "AJG",
    "reported": 6.617,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "AON": {
    "symbol": "AON",
    "reported": 18.353,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "APO": {
    "symbol": "APO",
    "reported": -1.806,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "LLY": {
    "symbol": "LLY",
    "reported": 30.475,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "JNJ": {
    "symbol": "JNJ",
    "reported": 6.684,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ABBV": {
    "symbol": "ABBV",
    "reported": 5.818,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MRK": {
    "symbol": "MRK",
    "reported": 0.994,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "UNH": {
    "symbol": "UNH",
    "reported": 17.589,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "AZN": {
    "symbol": "AZN",
    "reported": 7.032,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "AMGN": {
    "symbol": "AMGN",
    "reported": 17.382,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "TMO": {
    "symbol": "TMO",
    "reported": 18.992,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "GILD": {
    "symbol": "GILD",
    "reported": -3.103,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ABT": {
    "symbol": "ABT",
    "reported": 2.718,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "PFE": {
    "symbol": "PFE",
    "reported": 0.708,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "DHR": {
    "symbol": "DHR",
    "reported": 6.134,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ISRG": {
    "symbol": "ISRG",
    "reported": 8.363,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "VRTX": {
    "symbol": "VRTX",
    "reported": 15.664,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "SYK": {
    "symbol": "SYK",
    "reported": 9.463,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "BMY": {
    "symbol": "BMY",
    "reported": 4.53,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MDT": {
    "symbol": "MDT",
    "reported": 5.223,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "HCA": {
    "symbol": "HCA",
    "reported": 30.529,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "REGN": {
    "symbol": "REGN",
    "reported": 46.977,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MRNA": {
    "symbol": "MRNA",
    "reported": -7.068,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ELV": {
    "symbol": "ELV",
    "reported": 23.548,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CAT": {
    "symbol": "CAT",
    "reported": 25.613,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "AMAT": {
    "symbol": "AMAT",
    "reported": 12.713,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "LRCX": {
    "symbol": "LRCX",
    "reported": 6.752,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "GEV": {
    "symbol": "GEV",
    "reported": 38.556,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "SHOP": {
    "symbol": "SHOP",
    "reported": 1.609,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "UNP": {
    "symbol": "UNP",
    "reported": 12.843,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "DE": {
    "symbol": "DE",
    "reported": 18.001,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "UBER": {
    "symbol": "UBER",
    "reported": 1.698,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "SPGI": {
    "symbol": "SPGI",
    "reported": 16.825,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ETN": {
    "symbol": "ETN",
    "reported": 10.034,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "PH": {
    "symbol": "PH",
    "reported": 29.521,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ENB": {
    "symbol": "ENB",
    "reported": 2.028,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MMM": {
    "symbol": "MMM",
    "reported": 6.756,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "WM": {
    "symbol": "WM",
    "reported": 7.645,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "UPS": {
    "symbol": "UPS",
    "reported": 5.202,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CSX": {
    "symbol": "CSX",
    "reported": 1.931,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CTAS": {
    "symbol": "CTAS",
    "reported": 5.13,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "TT": {
    "symbol": "TT",
    "reported": 14.263,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "PWR": {
    "symbol": "PWR",
    "reported": 11.206,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MCO": {
    "symbol": "MCO",
    "reported": 16.458,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "WMB": {
    "symbol": "WMB",
    "reported": 2.547,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "JCI": {
    "symbol": "JCI",
    "reported": 4.692,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CP": {
    "symbol": "CP",
    "reported": 3.051,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ITW": {
    "symbol": "ITW",
    "reported": 11.243,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "EPD": {
    "symbol": "EPD",
    "reported": 3.019,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "RSG": {
    "symbol": "RSG",
    "reported": 7.23,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CNI": {
    "symbol": "CNI",
    "reported": 5.594,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "NSC": {
    "symbol": "NSC",
    "reported": 11.94,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "SLB": {
    "symbol": "SLB",
    "reported": 2.077,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "DASH": {
    "symbol": "DASH",
    "reported": 2.448,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "FDX": {
    "symbol": "FDX",
    "reported": null,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "HON": {
    "symbol": "HON",
    "reported": 23.526,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "XOM": {
    "symbol": "XOM",
    "reported": 9.732,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CVX": {
    "symbol": "CVX",
    "reported": 13.708,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "TTE": {
    "symbol": "TTE",
    "reported": 10.026,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "COP": {
    "symbol": "COP",
    "reported": 9.511,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "MPC": {
    "symbol": "MPC",
    "reported": 51.291,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "PSX": {
    "symbol": "PSX",
    "reported": 31.439,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CNQ": {
    "symbol": "CNQ",
    "reported": 4.787,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "VLO": {
    "symbol": "VLO",
    "reported": 44.465,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "EOG": {
    "symbol": "EOG",
    "reported": 15.575,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "SU": {
    "symbol": "SU",
    "reported": 6.625,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "LIN": {
    "symbol": "LIN",
    "reported": 15.125,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "SCCO": {
    "symbol": "SCCO",
    "reported": 7.452,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "NEM": {
    "symbol": "NEM",
    "reported": 8.627,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "SHW": {
    "symbol": "SHW",
    "reported": 10.981,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "AEM": {
    "symbol": "AEM",
    "reported": 11.972,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "ECL": {
    "symbol": "ECL",
    "reported": 7.402,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "FCX": {
    "symbol": "FCX",
    "reported": 2.38,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "NEE": {
    "symbol": "NEE",
    "reported": 5.579,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "SO": {
    "symbol": "SO",
    "reported": 4.382,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "DUK": {
    "symbol": "DUK",
    "reported": 6.848,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   },
   "CEG": {
    "symbol": "CEG",
    "reported": 12.48,
    "book": null,
-   "period": "2026-11-27",
+   "period": "2026-11-28",
    "dateKind": "checked"
   }
  },
